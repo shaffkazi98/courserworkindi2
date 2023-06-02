@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "647a33055d5dbd2840301ae1"
+  },
+  "checkoutName": "shaff",
+  "checkoutPhone": "0976578",
+  "cartProduct": [
+    {
+      "cartId": 1,
+      "_id": "63cf6d91525e307676897741",
+      "id": 1,
+      "subject": "Mathmateics",
+      "location": "Block 1, Class 108",
+      "price": 425,
+      "space": 5,
+      "image": "img/Math.jpg"
+    },
+    {
+      "cartId": 2,
+      "_id": "63cf6d91525e307676897741",
+      "id": 1,
+      "subject": "Mathmateics",
+      "location": "Block 1, Class 108",
+      "price": 425,
+      "space": 5,
+      "image": "img/Math.jpg"
+    }
+  ]
+}]
