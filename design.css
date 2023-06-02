@@ -60,7 +60,7 @@ aside ul li button {
 }
 
 aside ul li button:hover {
-    background-color: rgb(135, 164, 189);
+    background-color:seagreen  (135, 164, 189);
 }
 
 .lessons {
@@ -70,7 +70,7 @@ aside ul li button:hover {
 
 .lessons__item {
     width: 210px;
-    background-color: #7691aa;
+    background-color: seagreen;
     padding: 20px 20px;
     margin: 15px;
     border-radius: 10px;
@@ -95,7 +95,7 @@ aside ul li button:hover {
 .cart__item {
     display: flex;
     align-items: center;
-    background-color: #66b0c7;
+    background-color: seagreen;
     margin: 5px 0;
 }
 
@@ -156,6 +156,6 @@ button {
 }
 
 button:active {
-    color: #7691aa;
-    background-color: #66b0c7;
+    color: seagreen;
+    background-color: seagreen;
 }
