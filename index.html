@@ -16,7 +16,7 @@
 <body>
     <div id="app">
         <!-- Header -->
-        <div class="container-fluid bg-primary">
+        <div class="container-fluid bg-success">
             <div class="row">
                 <div class="col-sm-10">
                     <h1 class="text-white" v-text="sitename"></h1>
@@ -34,12 +34,13 @@
         <div class="container-fluid">
             <div class="row">
                 <!--------------------SideBar------------------->
+                <div class="form-group p-4">
+                    <input v-on:input="filteredList" class="form-control border-dark" type="text" v-model="search" placeholder="Search title.." />
+                </div>
                 <div class="col-sm-3 mt-5">
-                    <h3 class="h2-responsive  bold text-primary">Sort by</h3>
+                    <h3 class="h2-responsive  bold text-success">Sortings!</h3>
                     <hr>
-                    <div class="form-group p-4">
-                        <input v-on:input="filteredList" class="form-control border-primary" type="text" v-model="search" placeholder="Search title.." />
-                    </div>
+
                     <ul class="list-group w-100">
                         <li class="list-group-item "><button class="btn btn-secondary w-100" v-on:click="type = 'subject'">Subject</button></li>
                         <li class="list-group-item "><button class="btn btn-secondary w-100" v-on:click="type = 'price'">Price</button></li>
@@ -54,7 +55,7 @@
                 <div class="col-md-9">
                     <div v-if='!showProduct'>
                         <div class="title-bar">
-                            <h1 class="text-primary hr">Lessons</h1>
+                            <h1 class="text-success hr m-5">Lessons</h1>
                             <select v-model="sort" id="sortby">
                                 <option value="ascending">Ascending</option>
                                 <option value="descending">Descending</option>
@@ -90,9 +91,9 @@
                                             <p class="card-text">Location: {{ lessons.location }}</p>
                                             <p class="card-text">Price: {{ lessons.price }}</p>
                                             <p class="card-text">Spaces: {{lessons.space}}</p>
-                                            <button class="btn btn-primary" v-on:click='addToCart(lessons)' :disabled="!lessons.space">Add to cart</button>
+                                            <button class="btn btn-dark" v-on:click='addToCart(lessons)' :disabled="!lessons.space">Add to cart</button>
                                             <span v-if="lessons.space">{{'Left '+ lessons.space}}</span>
-                                            <span v-else>This lesson is fully booked!</span>
+                                            <span v-else>This lesson is booked!</span>
                                         </div>
                                     </div>
                                 </div>
@@ -110,7 +111,7 @@
                                 <h4>Total Amount: {{total}}</h4>
                             </div>
                             <!-- cart-->
-                            <h4>Your cart</h4>
+                            <h4>Your cart here!</h4>
                             <div class="">
                                 <!-- <div class="cart__item">
                                     <div style="width: auto;">Image</div>
@@ -183,7 +184,7 @@
                 el: '#app',
                 data: {
                     search: '',
-                    sitename: 'Classic University',
+                    sitename: 'Middlesex University Dubai',
                     lessons: [],
                     cart: [],
                     showProduct: false,

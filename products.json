@@ -4,8 +4,8 @@
   },
   "id": 2,
   "subject": "English",
-  "location": "Block 5, Class 802",
-  "price": 350,
+  "location": "Block 5, Class 10",
+  "price": 600,
   "space": 4,
   "image": "img/English.jpg"
 },{
@@ -14,9 +14,9 @@
   },
   "id": 4,
   "subject": "History",
-  "location": "Block 3, Class 605",
-  "price": 250,
-  "space": 6,
+  "location": "Block 3, Class 19",
+  "price": 200,
+  "space": 9,
   "image": "img/History.jpg"
 },{
   "_id": {
@@ -65,8 +65,8 @@
   "id": 3,
   "subject": "Football",
   "location": "Block 6, Field 1",
-  "price": 425,
-  "space": 8,
+  "price": 700,
+  "space": 3,
   "image": "img/Football.jpg"
 },{
   "_id": {
@@ -74,9 +74,9 @@
   },
   "id": 11,
   "subject": "Cricket",
-  "location": "Block 8, Class 207",
-  "price": 250,
-  "space": 9,
+  "location": "Main ground",
+  "price": 400,
+  "space":12,
   "image": "img/Cricket.jpg"
 },{
   "_id": {
@@ -114,8 +114,8 @@
   },
   "id": 5,
   "subject": "Geography",
-  "location": "Block 1, Geography Lab",
-  "price": 375,
+  "location": "Block 4, Geography Lab",
+  "price": 400,
   "space": 5,
   "image": "img/Geography.jpg"
 },{
@@ -142,8 +142,8 @@
   "_id": "63cf6d91525e30767689774d",
   "id": 13,
   "subject": "Art",
-  "location": "Block 5, Art Room",
-  "price": 250,
-  "space": 5,
+  "location": "Block 7, Art Room",
+  "price": 500,
+  "space": 10,
   "image": "img/Art.jpg"
 }]
